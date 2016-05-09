@@ -1,4 +1,4 @@
-update=Dienstag, 03. Mai 2016 'u11' 09:11:44
+update=Montag, 09. Mai 2016 'u13' 14:13:54
 version=1
 last_client=kicad
 [cvpcb]
@@ -79,3 +79,15 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=/Users/AMK/Documents/Projects/KiCAD Lib/Pololu DRV8834
+LibName32=/Users/AMK/Documents/Projects/KiCAD Lib/DFPlayer_mini
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
