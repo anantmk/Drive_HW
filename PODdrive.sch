@@ -858,69 +858,69 @@ $EndComp
 $Comp
 L CONN_01X12 P?
 U 1 1 5729CB47
-P 11250 4700
-F 0 "P?" H 11250 5350 50  0000 C CNN
-F 1 "CONN_SRV_OUT" V 11350 4700 50  0000 C CNN
-F 2 "" H 11250 4700 50  0000 C CNN
-F 3 "" H 11250 4700 50  0000 C CNN
-	1    11250 4700
+P 11550 4700
+F 0 "P?" H 11550 5350 50  0000 C CNN
+F 1 "CONN_SRV_OUT" V 11650 4700 50  0000 C CNN
+F 2 "" H 11550 4700 50  0000 C CNN
+F 3 "" H 11550 4700 50  0000 C CNN
+	1    11550 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X12 P?
 U 1 1 5729CC87
-P 11250 5250
-F 0 "P?" H 11250 5900 50  0000 C CNN
-F 1 "CONN_SRV_SUPPLY" V 11250 5250 50  0000 C CNN
-F 2 "" H 11250 4050 50  0000 C CNN
-F 3 "" H 11250 4050 50  0000 C CNN
-	1    11250 5250
+P 11550 5250
+F 0 "P?" H 11550 5900 50  0000 C CNN
+F 1 "CONN_SRV_SUPPLY" V 11550 5250 50  0000 C CNN
+F 2 "" H 11550 4050 50  0000 C CNN
+F 3 "" H 11550 4050 50  0000 C CNN
+	1    11550 5250
 	0    1    1    0   
 $EndComp
-Text GLabel 11800 4350 1    60   Input ~ 0
+Text GLabel 12100 4350 1    60   Input ~ 0
 SRV_CH1
-Text GLabel 11700 4350 1    60   Input ~ 0
+Text GLabel 12000 4350 1    60   Input ~ 0
 SRV_CH2
-Text GLabel 11600 4350 1    60   Input ~ 0
+Text GLabel 11900 4350 1    60   Input ~ 0
 SRV_CH3
-Text GLabel 11500 4350 1    60   Input ~ 0
+Text GLabel 11800 4350 1    60   Input ~ 0
 SRV_CH4
-Text GLabel 11400 4350 1    60   Input ~ 0
+Text GLabel 11700 4350 1    60   Input ~ 0
 SRV_CH5
-Text GLabel 11300 4350 1    60   Input ~ 0
+Text GLabel 11600 4350 1    60   Input ~ 0
 SRV_CH6
-Text GLabel 11200 4350 1    60   Input ~ 0
+Text GLabel 11500 4350 1    60   Input ~ 0
 SRV_CH7
-Text GLabel 11100 4350 1    60   Input ~ 0
+Text GLabel 11400 4350 1    60   Input ~ 0
 SRV_CH8
-Text GLabel 11000 4350 1    60   Input ~ 0
+Text GLabel 11300 4350 1    60   Input ~ 0
 SRV_CH9
-Text GLabel 10900 4350 1    60   Input ~ 0
+Text GLabel 11200 4350 1    60   Input ~ 0
 SRV_CH10
-Text GLabel 10800 4350 1    60   Input ~ 0
+Text GLabel 11100 4350 1    60   Input ~ 0
 SRV_CH11
-Text GLabel 10700 4350 1    60   Input ~ 0
+Text GLabel 11000 4350 1    60   Input ~ 0
 SRV_CH12
 $Comp
 L GND-RESCUE-PODdrive #PWR?
 U 1 1 572A0621
-P 12000 5550
-F 0 "#PWR?" H 12000 5550 30  0001 C CNN
-F 1 "GND-RESCUE-PODdrive" H 12000 5480 30  0001 C CNN
-F 2 "" H 12000 5550 60  0000 C CNN
-F 3 "" H 12000 5550 60  0000 C CNN
-	1    12000 5550
+P 12300 5550
+F 0 "#PWR?" H 12300 5550 30  0001 C CNN
+F 1 "GND-RESCUE-PODdrive" H 12300 5480 30  0001 C CNN
+F 2 "" H 12300 5550 60  0000 C CNN
+F 3 "" H 12300 5550 60  0000 C CNN
+	1    12300 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 572A06F2
-P 12000 5000
-F 0 "#PWR?" H 12000 4850 50  0001 C CNN
-F 1 "+5V" H 12000 5140 50  0000 C CNN
-F 2 "" H 12000 5000 50  0000 C CNN
-F 3 "" H 12000 5000 50  0000 C CNN
-	1    12000 5000
+P 12300 5000
+F 0 "#PWR?" H 12300 4850 50  0001 C CNN
+F 1 "+5V" H 12300 5140 50  0000 C CNN
+F 2 "" H 12300 5000 50  0000 C CNN
+F 3 "" H 12300 5000 50  0000 C CNN
+	1    12300 5000
 	1    0    0    -1  
 $EndComp
 Text GLabel 9650 1200 2    60   Output ~ 0
@@ -1152,10 +1152,7 @@ Wire Wire Line
 	13800 3450 13700 3450
 Connection ~ 13800 3450
 Wire Wire Line
-	10700 5000 12000 5000
-Connection ~ 10800 5000
-Connection ~ 10900 5000
-Connection ~ 11000 5000
+	11000 5000 12300 5000
 Connection ~ 11100 5000
 Connection ~ 11200 5000
 Connection ~ 11300 5000
@@ -1163,11 +1160,11 @@ Connection ~ 11400 5000
 Connection ~ 11500 5000
 Connection ~ 11600 5000
 Connection ~ 11700 5000
+Connection ~ 11800 5000
+Connection ~ 11900 5000
+Connection ~ 12000 5000
 Wire Wire Line
-	10700 5500 12000 5500
-Connection ~ 10800 5500
-Connection ~ 10900 5500
-Connection ~ 11000 5500
+	11000 5500 12300 5500
 Connection ~ 11100 5500
 Connection ~ 11200 5500
 Connection ~ 11300 5500
@@ -1175,10 +1172,13 @@ Connection ~ 11400 5500
 Connection ~ 11500 5500
 Connection ~ 11600 5500
 Connection ~ 11700 5500
-Connection ~ 11800 5000
-Wire Wire Line
-	12000 5500 12000 5550
 Connection ~ 11800 5500
+Connection ~ 11900 5500
+Connection ~ 12000 5500
+Connection ~ 12100 5000
+Wire Wire Line
+	12300 5500 12300 5550
+Connection ~ 12100 5500
 Wire Wire Line
 	9450 1700 10300 1700
 Wire Wire Line
@@ -2168,6 +2168,12 @@ Wire Wire Line
 Wire Wire Line
 	11200 7100 11200 7250
 Wire Wire Line
+	12100 4350 12100 4500
+Wire Wire Line
+	12000 4350 12000 4500
+Wire Wire Line
+	11900 4350 11900 4500
+Wire Wire Line
 	11800 4350 11800 4500
 Wire Wire Line
 	11700 4350 11700 4500
@@ -2185,12 +2191,6 @@ Wire Wire Line
 	11100 4350 11100 4500
 Wire Wire Line
 	11000 4350 11000 4500
-Wire Wire Line
-	10900 4350 10900 4500
-Wire Wire Line
-	10800 4350 10800 4500
-Wire Wire Line
-	10700 4350 10700 4500
 Text GLabel 4300 1850 2    60   Input ~ 0
 ADC6
 Text GLabel 4300 1950 2    60   Input ~ 0

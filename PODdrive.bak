@@ -157,28 +157,6 @@ F 3 "~" H 8900 9650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR?
-U 1 1 5541FB0B
-P 3050 800
-F 0 "#PWR?" H 3050 890 20  0001 C CNN
-F 1 "+5V" H 3050 890 30  0000 C CNN
-F 2 "" H 3050 800 60  0000 C CNN
-F 3 "" H 3050 800 60  0000 C CNN
-	1    3050 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5541FB1A
-P 8300 800
-F 0 "#PWR?" H 8300 890 20  0001 C CNN
-F 1 "+5V" H 8300 890 30  0000 C CNN
-F 2 "" H 8300 800 60  0000 C CNN
-F 3 "" H 8300 800 60  0000 C CNN
-	1    8300 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND-RESCUE-PODdrive #PWR?
 U 1 1 5541FB29
 P 3050 5100
@@ -2356,4 +2334,8 @@ Text GLabel 10100 6900 1    60   Input ~ 0
 AREF
 Wire Wire Line
 	10100 6900 10100 7250
+Text GLabel 8300 800  1    60   Output ~ 0
++5V
+Text GLabel 3050 800  1    60   Output ~ 0
++5V
 $EndSCHEMATC
